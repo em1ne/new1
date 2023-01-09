@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(dna.jpg);
+    
+    
+}
+a{
+    color: #fff;
+
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+/* header start */
+header{
+    background-color: lightskyblue;
+    opacity: 80%;
+    height: 80px;
+    padding: 12px 24px;
+    border-radius: 56px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.12);
+
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+header nav .DNA a{
+    color: #fff;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size:20px;
+}
+nav ul{
+    list-style: none;
+
+    display: flex;
+    column-gap:30px;
+}
+nav ul a{
+    color:#fff;
+    text-decoration:none ;
+    transition: color .25s ease;
+    
+}
+
+    nav ul a:hover{
+        color:rgb(55, 123, 130);
+        }
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+nav .menu .menu-button{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(42, 134, 148,0.7);
+    padding: 12px 24px;
+    border-radius: 56px;
+    transition: all .25s ease;
+
+}
+nav .menu .menu-button:hover{
+   background-color: rgb(55, 123, 130);
+   color: white;
+
+}
+       
+
+
+/*header end */
+.row{
+    display: flex;
+}
+.col{
+    flex-basis: 50%;
+}
+/* section start */
+.content{
+    color:white ;
+    height: calc(100vh-100px);
+    padding-top: 150px;
+}
+.content h1{
+    text-decoration: underline;
+    
+}
+   
+
+
+.container-content h1{
+   
+    width: 350px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 100px;
+    color:rgb(22, 22, 92) ;
+
+}
+.container-content p{
+    
+    border-radius: 15px;
+    width: 450px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color:rgb(22, 22, 92);
+    background-color:rgba(173, 216, 230, 0.33);
+
+}
+.container-content .links a{
+    
+    padding: 20px;
+    margin-top: 50px;
+     display: flex; 
+     width: 450px;
+     height: 50px;
+     align-items: center;
+     justify-content: center;
+     border-radius: 25px;
+     background-color:rgb(22, 22, 92) ;
+     transition: 0.5s;
+     
+}
+.container-content .links a:hover{
+    background-color: lightblue;
+} 
+   
+/* section end */
+
+.signup-form{
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 400px;
+    height: 500px;
+    padding: 50px;
+    text-align: center;
+    background:url(laboratuvar.png);
+    border-radius: 20px;
+    position: absolute;
+    overflow: hidden;
+   
+}
+.signup-form h1{
+    color:rgb(22, 22, 92);
+    margin-top: 10%;
+    font-size: 40px;
+
+}
+.signup-form input{
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+    border: none;
+
+
+}
+.txt{
+    margin: 10px 0px;
+}
+.signup-btn{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+    color: #fff;
+
+}
+.signup-btn:hover{
+    background-color:rgb(22, 22, 92);
+}
+.signup-form .bag{
+    color:rgb(22, 22, 92) ;
+}
+
+/* responsive start */
+@media(max-width:577px){
+    .container{
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    }
+}
+.menu ul{
+    column-gap: 20px;
+   
+}
+.menu .menu-button{
+    display: none;
+
+}
+.content p{
+    font-size: 16px;
+
+    text-align: center;
+
+
+}
+/* responsive end */
